@@ -136,12 +136,12 @@ function endGame() {
   })
   window.removeEventListener('keydown', moveDodger)
 
-  // GAME.removeChild(GAME.lastChild)
+  GAME.removeChild(GAME.lastChild)
   window.alert("YOU LOSE FUCKER")
 
-  // while (GAME.firstChild) {
-  //   GAME.removeChild(GAME.firstChild);
-  // }
+  while (GAME.firstChild) {
+    GAME.removeChild(GAME.firstChild);
+  }
 
 }
 
